@@ -3,9 +3,9 @@ import paho.mqtt.client as mqtt
 
 app = FastAPI()
 
-MQTT_BROKER = "127.0.0.1"
-MQTT_PORT = 1883
-MQTT_TOPIC = "kyberno/grc/pump001"
+MQTT_BROKER = ""
+MQTT_PORT = 
+MQTT_TOPIC = ""
 
 client = mqtt.Client()
 
